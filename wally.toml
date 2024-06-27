@@ -1,0 +1,18 @@
+[package]
+name = "flipstargamer/assetspacer"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+license = "MIT"
+description = "Simple namespace library."
+
+exclude = ["**"]
+include = [
+ "src",
+ "src/**",
+ "wally.toml"
+ "LICENSE"
+ "default.project.json"
+]
+
+[dependencies]
